@@ -20,7 +20,7 @@
       write(*,*)'The sum of both vectors is: ', sumvecc
 
       dist = distance2(vec1,vec2)
-      print*,'distance of vec1',dist
+      print*,'distance between vec1 and vec2',dist
 
       vol = volSphere(dist)
       print*,'volume of sphere',vol     

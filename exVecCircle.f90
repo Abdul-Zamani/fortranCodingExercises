@@ -6,7 +6,7 @@
       real :: dist, areacirc
       !You must define the input variables prior to defining the arrays
       
-      write(*,*)'Enter the elements for vector #1(origin coordinates&
+      write(*,*)'Enter the elements for vector #1 (origin coordinates&
         ): '
       read*,a,b
       write(*,*)'Enter the elements for vector #2: '

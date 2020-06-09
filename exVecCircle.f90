@@ -6,7 +6,8 @@
       real :: dist, areacirc
       !You must define the input variables prior to defining the arrays
       
-      write(*,*)'Enter the elements for vector #1: '
+      write(*,*)'Enter the elements for vector #1(origin coordinates&
+        ): '
       read*,a,b
       write(*,*)'Enter the elements for vector #2: '
       read*,x,y
@@ -18,11 +19,11 @@
       sumvecc=sumvec(vec1,vec2)
       write(*,*)'The sum of both vectors is: ', sumvecc
 
-      dist = distance1(vec1)
-      print*,'distance of vec1',dist
+      dist = distance2(vec1,vec2)
+      print*,'distance between vec1 and vec2',dist
 
       areacirc = areacircle(dist)
-      print*,'area of circle using vec1 norm',areacirc       
+      print*,'area of circle',areacirc       
 
        contains 
       !Subroutine should be defined in terms of another expression

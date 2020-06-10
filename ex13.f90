@@ -12,6 +12,7 @@
 
       print*,'Enter your name: '
       read(*,*),nombre
+      
       open(unit = 1,file = fileName)
 
       !writes on same line

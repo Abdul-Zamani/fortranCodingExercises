@@ -16,5 +16,19 @@ Q14: ex14.f90
 
 Q15: ex15.f90
 
+Misc: 
+
+atomicDistance.f90 	
+
+commandline_01.f90
+
+commandline_02.f90 	
+	
+commandline_03.f90
+ 	
+commandline_04.f90
+
+commandline_05.f90
+
 Jun. 2020 
 
